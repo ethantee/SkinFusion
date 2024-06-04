@@ -1,0 +1,23 @@
+beautifulsoup4==4.12.3
+ipywidgets==8.1.2 # jupyter notebook widgets
+joblib==1.4.0 # parallel processing and model saving
+matplotlib==3.8.4
+nltk==3.8.1
+numpy==1.26.3
+pandas==2.2.2
+pyarrow==15.0.2 # processing parquet files
+requests==2.31.0 # for making http requests
+scikit-learn==1.4.2
+seaborn==0.13.2
+sentencepiece==0.2.0 # tokenization for DeBERTa
+streamlit==1.22.0 # deployment
+surprise==0.1 # library for recommendation systems
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+tqdm==4.66.2 # progress bar
+transformers==4.39.3 # for loading pre-trained models from huggingface
+wordcloud==1.9.3
+
+# Use this command to install torch, torchvision and torchaudio with cuda support - Version 12.1
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121

@@ -1,0 +1,12 @@
+# Ignore datasets files
+data/
+processed_data/
+
+# Ignore pre-trained models files
+models/
+
+# Ignore virtual environment files
+venv/
+
+# Ignore cosine similarity matrix file
+deployment/cosine_sim_matrix_glove.npy
